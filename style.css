@@ -1,0 +1,538 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+header, #section_one {
+    background: url(images/cover-image.jpg) center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 650px;
+}
+
+p {
+    line-height: 1.85;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+.old_car bcg {
+    background-image: url(images/old-car.jpg);
+}
+
+#price_ranges {
+    background-color: #f6f7fa;
+    padding: 120px 0;
+}
+
+#price_ranges .row {
+    padding: 0 1.5em;
+}
+
+#price_ranges p {
+    color: #8a9ead;
+    padding-bottom: 22px;
+    margin-right: 90px;
+}
+
+.team_plan {
+    background-color: white;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    border-radius: 5px;
+    padding: 45px 55px;
+}
+
+.got_it {
+    padding: 45px 55px;
+}
+
+#price_ranges h2 {
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+#price_ranges a {
+    background-color: #82ca9c;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px 24px 16px 24px;
+    border-radius: 3px;
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+#price_ranges a:hover {
+    text-decoration: underline;
+    transition: all .3s ease;
+    background-color: #37b164;
+}
+
+.logo_apple {
+    fill: #c5c5c5;
+    margin-top: 30px;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.logo_windows {
+    fill: #c5c5c5;
+    margin-top: 30px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.legacy {
+    background-color: #c8d4e5;
+}
+
+.popular {
+    background-color: #a98cc9;
+}
+
+.popular, .legacy {
+    font-size: 11px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 13px 5px 13px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #192431;
+    padding: 8.8em 0 7em;
+}
+
+footer p {
+    color: #FFFFFF;
+    margin-right: 25px;
+}
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 8px;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: #82ca9c;
+}
+
+footer h4 {
+    color: white;
+    padding-bottom: 29px;
+}
+
+.list {
+    display: flex;
+}
+
+.below_button {
+    color: #57697f;
+    font-weight: bold;
+}
+
+.stay {
+    margin-left: 100px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control {
+    height: 55px; 
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 3px 0 0 3px;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    height: 55px;
+    width: 70px;
+    border-radius: 0 3px 3px 0;
+    background-color: #82ca9c;
+}
+
+.check {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+#about {
+    background-color: #82ca9c;
+    padding: 120px 0;
+}
+
+#about h4  {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+#about p {
+    color: white;
+    margin-right: 20px;
+}
+
+#about h1 {
+    color: white;
+    font-size: 35px;
+    padding-bottom: 49px;
+}
+
+#big_picture {
+    background: url(images/old-car.jpg) center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 870px;
+}
+
+#big_picture .wrap-text {
+    color: white;
+    padding-top: 449px;
+}
+
+#big_picture h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    padding-bottom: 38px;
+}
+
+#big_picture a {
+    color: white;
+}
+
+.arrow {
+    fill: white;
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+}
+
+#big_picture a:hover {
+    text-decoration: underline;
+}
+
+#details {
+    background-color: #f6f7fa;
+    padding: 120px 0;
+}
+
+#details h1 {
+    font-weight: lighter;
+    margin-bottom: 49px;
+}
+
+#details h4 {
+    color: #67676d;
+    margin-bottom: 14px;
+}
+
+#details p {
+    color: #959595;
+    margin-right: 20px;
+}
+
+.pink-col {
+    background-color: #f5989d;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.pink-col h2 {
+    color: white;
+    margin-bottom: 14px;
+    font-size: 30px;
+}
+
+.pink-col p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.pink-col a {
+    font-weight: bold;
+    color: white;
+}
+
+.blue-col {
+    background-color: #615f7d;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.blue-col h2 {
+    color: white;
+    margin-bottom: 14px;
+    font-size: 30px;
+}
+
+.blue-col p {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.blue-col a {
+    color: white;
+    font-weight: bold;
+}
+
+.winter-img {
+    background: url(images/photographer.jpg);
+    background-size: cover;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.winter-img h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.winter-img p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.winter-img a {
+    color: white;
+    font-weight: bold;
+}
+
+.purple-col {
+    background-color: #bd8cbf;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.purple-col h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.purple-col p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.purple-col a {
+    color: white;
+    font-weight: bold;
+}
+
+.sun-img {
+    background-image: url(images/sunny-winter.jpg);
+    background-size: cover;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.sun-img h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.sun-img p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+    margin-right: 400px;
+}
+
+.sun-img a {
+    color: white;
+    font-weight: bold;
+}
+
+.green-col {
+    background-color: #82ca9c;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.green-col h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.green-col p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.green-col a {
+    color: white;
+    font-weight: bold;
+}
+
+.sweater-img {
+    background: url(images/sweater.jpg);
+    background-size: cover;
+    padding: 45px 30px 0 30px;
+    height: 280px;
+}
+
+.sweater-img h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.sweater-img p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sweater-img a {
+    color: white;
+    font-weight: bold;
+}
+
+#description {
+    background-color: #f6f7fa;
+    padding: 120px;
+}
+
+#description h1 {
+    font-weight: 300;
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+#description p {
+    color: #959595;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.second-text {
+    margin-top: 135px;
+}
+
+.iphone-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+}
+
+.logo {
+    margin-top: 52px;
+}
+
+.picture-perfect {
+    margin-top: 300px;
+}
+
+.picture-perfect h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.picture-perfect p {
+    font-size: 13px;
+    color: white;
+    margin-right: 350px;
+}
+
+@media all and (max-width: 1024px) {
+    .iphone-img {
+        display: none;
+    }
+
+    .picture-perfect {
+        margin-bottom: 200px;
+    }
+
+    .second-text {
+        margin-top: 0px;
+    }
+
+    .pink-col {
+        height: 300px;
+        width: 250px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .blue-col {
+        height: 300px; 
+        width: 250px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .purple-col {
+        height: 300px;
+        width: 250px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .winter-img {
+        height: 300px;
+        width: 480px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .sun-img {
+        height: 300px;
+        width: 730px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .green-col {
+        height: 300px;
+        width: 250px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .sweater-img {
+        height: 300px;
+        width: 730px;
+        padding: 30px 30px 0 30px;
+    }
+    
+    .stay {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .list {
+        display: flex; 
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+}
